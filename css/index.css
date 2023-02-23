@@ -1,0 +1,93 @@
+/* this is the css for the home page (indx.html) */
+
+body {
+    overflow-x: hidden;
+}
+
+/* this is the header part  */
+
+
+
+header section img {
+    width: 100px;
+}
+
+#heading1 {
+    position: relative;
+    top: -64px;
+    right: -102px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    margin-right: 10px;
+}
+
+header nav {
+    position: absolute;
+    top: 37px;
+    left: 191px;
+}
+
+header hr {
+    position: relative;
+    top: -59px;
+}
+
+/* this is the main part  */
+
+#ttasks {
+    position: relative;
+    top: -33px;
+    right: -372px;
+}
+
+main table {
+    position: relative;
+    border-collapse: collapse;
+    width: 80%;
+    left: 84px
+}
+
+main table th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+main table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* this is the footer part  */
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+ul li img {
+    width: 24px;
+}
+
+footer {
+    position: absolute;
+    top: 442px;
+    left: 138px;
+}
