@@ -1,4 +1,3 @@
-/* this is the css for the home page (indx.html) */
 
 body {
     overflow-x: hidden;
@@ -71,59 +70,110 @@ header hr {
 
 /* this is the main part  */
 
-#ttasks {
-    position: absolute;
-    top: 119px;
-    left: 533px;
-    font-size: xxx-large;
+h1 { position: relative;
+top: 33PX;
+left: 577px;
+font-size: xxx-large;
     font-family: sans-serif;
 }
 
+h3 {
+    position: relative;
+    top: 45PX;
+    left: 513px;
+    font-size: x-large;
+    font-family: sans-serif;
+}
 
-main table {
+#you {
     position: absolute;
-    border-collapse: collapse;
-    width: 80%;
-    left: 84px;
-    margin: 25px 0;
-    top: 168px;
-    min-width: 400px;
-    font-size: 1.9em;
+    left: 255px;
+    top: 192px;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+#me {
+    position: relative;
+    top: 41px;
+    left: 916px;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+#form1 {
+
+    position: absolute;
+    top: 242px;
+    left: 218px;
+
+}
+
+#section2 {
+
+    position: absolute;
+    left: 804px;
+    top: 188px;
+}
+
+#section2 img {
+    position: relative;
+    width: 163px;
+    top: 46px;
+    left: 51px;
+}
+
+#p1 {
+    width: 263px;
+    position: relative;
+    top: 61px;
     font-family: monospace;
-    border-radius: 5px 5px 0 0 ;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-size: large;
+} 
+
+#name {
+     padding: 10px;
+    box-shadow: 0 0 15px 0;
+    border-radius: 20px;
+    margin: 10px;
+    width: 253px;
 }
 
-main table thead tr {
-    background-color: #009879;
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold;
+#e-mail {
+    padding: 10px;
+   box-shadow: 0 0 15px 0;
+   border-radius: 20px;
+   margin: 10px;
+   width: 253px;
 }
 
-main table th,
-main table td {
-        padding: 12px 15px
+textarea {
+    padding: 10px;
+    box-shadow: 0 0 15px 0;
+    border-radius: 20px;
+    margin: 10px;
+
 }
 
-main table tbody tr {
-        border-bottom: 1px solid #dddddd;
+button{
+    padding: 10px;
+   box-shadow: 0 0 15px 0;
+   border-radius: 20px;
+   margin: 10px;
+   width: 279px;
+   background-color:gray ;
+   }
+
+button:hover{
+    background-color:rgb(180, 179, 179)
+
+}
+
+button:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
     }
-    
-main table tbody tr:nth-of-type(even) {
-        background-color: #f3f3f3;
-    }
-    
 
- main table tbody tr:last-of-type {
-        border-bottom: 2px solid #009879;
-    }
-input[type=text] {
-    WIDTH: 100%;
-    HEIGHT: 59PX;
-    border-radius: 5px;
-}
+
 
 /* this is the footer part  */
 
@@ -177,4 +227,3 @@ margin-right: 20px;
 ul li img {
     width: 24px;
 }
-
