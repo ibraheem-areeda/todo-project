@@ -2,20 +2,46 @@
 
 body {
     overflow-x: hidden;
+
 }
 
 /* this is the header part  */
 
 
+header {
+    background-color: lavender;
+    padding: 0;
+    height: 67px;
+
+
+
+
+
+}
+
 
 header section img {
-    width: 100px;
+
+    position: absolute;
+    width: 79px;
+    left: 76px;
+    ;
 }
 
 #heading1 {
-    position: relative;
-    top: -64px;
-    right: -102px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 37px;
+    right: 1462px;
+    font-size: 36px;
+}
+
+header nav {
+    position: absolute;
+    top: 37px;
+    left: 609px;
+    font-size: x-large;
+    font-family: sans-serif;
 }
 
 header nav ul {
@@ -27,14 +53,15 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-right: 10px;
+    margin-right: 62px;
 }
 
-header nav {
-    position: absolute;
-    top: 37px;
-    left: 191px;
+header nav ul li a {
+    text-decoration: none;
+    text-decoration-color: black;
+
 }
+
 
 header hr {
     position: relative;
@@ -44,50 +71,104 @@ header hr {
 /* this is the main part  */
 
 #ttasks {
-    position: relative;
-    top: -33px;
-    right: -372px;
+    position: absolute;
+    top: 119px;
+    left: 533px;
+    font-size: xxx-large;
+    font-family: sans-serif;
 }
+
 
 main table {
-    position: relative;
+    position: absolute;
     border-collapse: collapse;
     width: 80%;
-    left: 84px
+    left: 84px;
+    margin: 25px 0;
+    top: 168px;
+    min-width: 400px;
+    font-size: 1.9em;
+    font-family: monospace;
+    border-radius: 5px 5px 0 0 ;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-main table th,
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
+main table thead tr {
+    background-color: #009879;
+    color: #ffffff;
     text-align: left;
-}
-
-main table th {
-    background-color: #f2f2f2;
     font-weight: bold;
 }
 
+main table th,
+main table td {
+        padding: 12px 15px
+}
+
+main table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+    
+main table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    
+
+ main table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
 /* this is the footer part  */
+
+footer {
+    position: absolute;
+    top: 582px;
+    left: 138px;
+}
 
 footer ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+
+    font-size: x-large;
+    font-family: sans-serif;
 }
 
-footer ul li {
-    margin-right: 10px;
+#f1 a {
+    text-decoration: none;
+    text-decoration-color: black;
+    margin-right: 30px;
+
+
 }
+
+#f2{
+    margin-right: 30px;
+
+
+}
+
+#f3{
+    margin-left: 30px;
+}
+
+
+
+
+
+.pic {
+margin-right: 20px;
+
+}
+
+
 
 ul li img {
     width: 24px;
 }
 
-footer {
-    position: absolute;
-    top: 442px;
-    left: 138px;
-}
